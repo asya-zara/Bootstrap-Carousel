@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Карусель</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/opensans/stylesheet.css">
+    <link rel="stylesheet" href="js-plugin/appear/nekoAnim.css">
+    <link rel="stylesheet" href="js-plugin/animation-framework/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+ 
+    <!-- Slider -->
+
+    <div class="carousel article-slide" id="article-photo-carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
+                <div class="carousel-indicators-desktop-content">
+                    <img alt="" src="img/img/preview/slider-1pre.jpg">
+                    <div class="carousel-indicators__text">
+                        <span class="action">Акция действует с 01.07.18</span>
+                        <p>Этот текст добавлен для демонстрации на странице </p>
+                    </div>
+                </div>
+            </li>
+            <li data-slide-to="1" data-target="#article-photo-carousel">
+                <div class="carousel-indicators-desktop-content">
+                    <img alt="" src="img/img/preview/slider-2pre.jpg">
+                    <div class="carousel-indicators__text">
+                        <span class="action">Акция действует с 01.07.18</span>
+                        <p>Этот текст добавлен для демонстрации на странице </p>
+                    </div>
+                </div>
+            </li>
+            <li data-slide-to="2" data-target="#article-photo-carousel">
+                <div class="carousel-indicators-desktop-content">
+                    <img alt="" src="img/img/preview/slider-3pre.jpg">
+                    <div class="carousel-indicators__text">
+                        <span class="action">Акция действует с 01.07.18</span>
+                        <p>Этот текст добавлен для демонстрации на странице </p>
+                    </div>
+                </div>
+            </li>
+            <li class="slide-hidden-xs" data-slide-to="3" data-target="#article-photo-carousel">
+                <div class="carousel-indicators-desktop-content">
+                    <img alt="" src="img/img/preview/slider-4pre.jpg">
+                    <div class="carousel-indicators__text">
+                        <span class="action">Акция действует с 01.07.18</span>
+                        <p>Этот текст добавлен для демонстрации на странице </p>
+                    </div>
+                </div>
+
+            </li>
+        </ol>
+
+        <!-- //Indicators -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner cont-slider">
+            <div class="item active nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInUp nekoAnim-visible" id="slide1" data-nekoanim="fadeInUp" data-nekodelay="10">
+                <div class="item__text">
+                    <div class="container">
+                        <div class="col-xs-8 col-xs-offset-2 col-md-offset-6 col-lg-offset-5">
+                            <h1> Этот текст добавлен для демонстрации на странице </h1>
+                            <p class="visible-xs visible-sm"> Тест на внимательность</p>
+                            <p class=" visible-md visible-lg"> Акция действует с 01.07.18 по 31.07.18</p>
+                            <form>
+                                <input class="item__text-button" type="button" value="Подробнее">
+                                <input class="item__text-button_action" type="button" value="Все акции">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInUp nekoAnim-visible" id="slide2"  data-nekoanim="fadeInUp" data-nekodelay="10">
+                <div class="item__text">
+                    <div class="container">
+                        <div class="col-xs-8 col-xs-offset-2 col-md-offset-6 col-lg-offset-5">
+                            <h1> Этот текст добавлен для демонстрации на странице </h1>
+                            <p class="visible-xs visible-sm"> Тест на внимательность</p>
+                            <p class=" visible-md visible-lg"> Акция действует с 01.07.18 по 31.07.18</p>
+                            <form>
+                                <input class="item__text-button" type="button" value="Подробнее">
+                                <input class="item__text-button_action" type="button" value="Все акции">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInUp nekoAnim-visible" id="slide3"  data-nekoanim="fadeInUp" data-nekodelay="10">
+                <div class="item__text ">
+                    <div class="container">
+                        <div class="col-xs-8 col-xs-offset-2 col-md-offset-6 col-lg-offset-5">
+                            <h1> Этот текст добавлен для демонстрации на странице </h1>
+                            <p class="visible-xs visible-sm"> Тест на внимательность</p>
+                            <p class=" visible-md visible-lg"> Акция действует с 01.07.18 по 31.07.18</p>
+                            <form>
+                                <input class="item__text-button" type="button" value="Подробнее">
+                                <input class="item__text-button_action" type="button" value="Все акции">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item nekoAnim-invisible nekoAnim-animated nekoAnim-fadeInUp nekoAnim-visible" id="slide4"  data-nekoanim="fadeInUpBig" data-nekodelay="10">
+
+                <div class="item__text ">
+                    <div class="container">
+                        <div class="col-xs-8 col-xs-offset-2 col-md-offset-6 col-lg-offset-5 col-lg-7">
+                            <h1> Этот текст добавлен для демонстрации на странице </h1>
+                            <p class="visible-xs visible-sm"> Тест на внимательность</p>
+                            <p class=" visible-md visible-lg"> Акция действует с 01.07.18 по 31.07.18</p>
+                            <form>
+                                <input class="item__text-button" type="button" value="Подробнее">
+                                <input class="item__text-button_action" type="button" value="Все акции">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="carousel-control-prev" href="#article-photo-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon">&#10094;</span>
+            </a>
+            <a class="carousel-control-next" href="#article-photo-carousel" data-slide="next">
+                <span class="carousel-control-next-icon">&#10095;</span>
+            </a>
+
+        </div>
+    </div>
+
+    <!--JS-->
+    <script src="libs/jquery/jquery/dist/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
