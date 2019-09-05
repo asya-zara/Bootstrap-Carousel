@@ -1,4 +1,4 @@
-# Bootstrap-Carouse
+# Bootstrap-Carousel
 Адаптивная  карусель Bootstrap
 ***
 1.Сборка HTML прототипа используя компоненты Bootsrap 3
