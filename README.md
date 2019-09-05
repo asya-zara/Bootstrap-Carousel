@@ -1,5 +1,5 @@
-# Bootstrap-Carousel
-***Адаптивная Bootstrap Carousel
+# Bootstrap-Carouse
+Адаптивная  карусель Bootstrap
 ***
 1.Сборка HTML прототипа используя компоненты Bootsrap 3
 - Grid system
